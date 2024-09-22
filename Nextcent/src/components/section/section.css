@@ -86,3 +86,44 @@ p{
 .member-ship h1{
     font-size: 30px;
 }
+
+.section02{
+    display: flex;
+    align-items: center;
+
+    justify-content: space-around;
+
+    padding-top: 60px;
+
+}
+
+.rafiki{
+    height: 500px;
+}
+
+.section02 div{
+    text-align: start;
+
+    font-size: 30px;
+    width: 700px
+
+}
+
+.section03{
+    display: flex;
+    align-items: center;
+
+    justify-content: space-around;
+
+
+}
+
+.group-help div{
+    width: 100;
+
+    display: flex;
+}
+
+.group-help{
+    display: grid;
+}

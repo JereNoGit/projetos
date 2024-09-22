@@ -17,6 +17,9 @@ import IconClub from "../../assets/icon-comunnity/icon-club.svg"
 import IconMembership from "../../assets/icon-comunnity/icon-membership.svg"
 import IconNational from "../../assets/icon-comunnity/icon-national.svg"
 
+// other
+import Rafiki from "../../assets/rafiki.svg"
+
 import Button from '../button/Button'
 
 const Section = () => {
@@ -67,6 +70,54 @@ const Section = () => {
               <h1>Membership Organisations</h1>
               <p>Our membership management software provides full automation of membership renewals and payments</p>
             </div>
+        </div>
+        <div className='section02'>
+          <img src={Rafiki} className ="rafiki" alt="#"/>
+          <div>
+            <h2>The unseen of speding three years at Pixelgrade</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet justo ipsum. Sed accumsan quam vitae est varius fringilla. Pellentesque placerat vestibulum lorem sed porta. Nullam mattis tristique iaculis. Nullam pulvinar sit amet risus pretium auctor. Etiam quis massa pulvinar, aliquam quam vitae, tempus sem. Donec elementum pulvinar odio.</p>
+            <Button name={"Learn more"}/>
+          </div>
+        </div>
+        <div className="section03">
+          <div>
+            <h2>Helping a local <br/>business reinvent itself</h2>
+            <p>We reached here with our hard work and dedication</p>
+          </div>
+          <div className='group-help'>
+            <div>
+              <img src="#" alt="#" />
+              <div>
+                <h2>2,245,341</h2>
+                <p>Members</p>
+              </div>
+            </div>
+
+            <div>
+              <img src="#" alt=" #" />
+              <div>
+                <h2>46,328</h2>
+                <p>clubs</p>
+              </div>
+            </div>
+
+            <div>
+              <img src="#" alt=" #" />
+              <div>
+                <h2>828,867</h2>
+                <p>Event Bookings</p>
+              </div>
+            </div>
+
+            <div>
+              <img src="#" alt=" #" />
+              <div>
+                <h2>1,926,436</h2>
+                <p>Payments</p>
+              </div>
+            </div>
+            
+          </div>
         </div>
       </div>
     </div>
